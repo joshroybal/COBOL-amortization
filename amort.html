@@ -1,0 +1,25 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1.0'>
+<meta name='description' content='COBOL AMORTIZATION TABULATOR'>
+<link id='tableStyle' media='all'>
+<title>COBOL AMORTIZATION TABULATOR</title>
+<script type='text/javascript' src='/amort.js' defer></script>
+</head>
+<body>
+<header><p>COBOL AMORTIZATION TABULATOR</p></header>
+<div><a href='/index.html'>Home</a></div>
+<br>
+<form action = "cgi-bin/amort.cgi" method = "POST" ENCTYPE="multipart/form-data">
+<div>INITIAL LOAN AMOUNT: $<input type = "text" name = "amount" size="10"></div>
+<div>NO. OF YEARS: <input type = "text" name = "years" size="10"></div>
+<div>INTEREST RATE: <input type = "text" name = "rate" size="10">%</div>
+<div><input type = "submit" value = "Submit"></div>
+</form>
+<br>
+<div><a href='/index.html'>Home</a></div>
+<footer><p>Copyright &copy; 2019 Josh Roybal</p></footer>
+</body>
+</html>
